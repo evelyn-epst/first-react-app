@@ -5,11 +5,12 @@ import reportWebVitals from './reportWebVitals';
 import "./output.css";
 import App2 from './App2';
 import New from './New';
+import Practice from './Practice';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <New />
+    <Practice />
   </React.StrictMode>
 );
 
