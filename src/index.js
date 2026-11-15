@@ -6,11 +6,12 @@ import "./output.css";
 import App2 from './App2';
 import New from './New';
 import Practice from './Practice';
+import Mac from './Mac';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Practice />
+    <Mac />
   </React.StrictMode>
 );
 
